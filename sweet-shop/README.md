@@ -21,29 +21,7 @@ A full-stack Sweet Shop Management System built with Svelte 5, Supabase, and sha
 - **UI Components**: shadcn-svelte
 - **Styling**: Tailwind CSS v4
 
-## Project Structure
 
-```
-sweet-shop/
-├── src/
-│   ├── lib/
-│   │   ├── components/
-│   │   │   ├── ui/           # shadcn-svelte components
-│   │   │   ├── Login.svelte  # Login/signup component
-│   │   │   └── Dashboard.svelte  # Main dashboard
-│   │   ├── stores/
-│   │   │   └── auth.ts       # Authentication store
-│   │   ├── supabase.ts       # Supabase client
-│   │   ├── database.types.ts # Database TypeScript types
-│   │   └── utils.ts          # Utility functions
-│   ├── App.svelte            # Root component
-│   ├── main.ts               # Entry point
-│   └── app.css               # Global styles
-├── supabase-schema.sql       # Database schema
-├── components.json           # shadcn-svelte config
-├── tailwind.config.js        # Tailwind configuration
-└── vite.config.ts            # Vite configuration
-```
 
 ## Setup Instructions
 
